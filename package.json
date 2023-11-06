@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Backend of youtube",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/tanveerisonline/youtube_backend/issues"
   },
-  "homepage": "https://github.com/tanveerisonline/youtube_backend#readme"
+  "homepage": "https://github.com/tanveerisonline/youtube_backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
